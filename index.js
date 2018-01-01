@@ -4,7 +4,7 @@ const Color = require('color');
 exports.decorateConfig = (config) => {
     const backColor = Color(config.backgroundColor)
     const colors = {
-        light: backColor.lightness(27).string(),
+        light: backColor.lightness(75).string(),
         dark: backColor.darken(0.18).string()
     }
 
@@ -20,11 +20,11 @@ exports.decorateConfig = (config) => {
                 background-color: transparent;
             }
             ::-webkit-scrollbar {
-                width: 4px;
-                height: 4px;
+                width: 6px;
+                height: 6px;
             }
             ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
-                -webkit-border-radius: 8px;
+                -webkit-border-radius: 12px;
             }
             ::-webkit-scrollbar-track {
                 background-color: ${colors.dark};
