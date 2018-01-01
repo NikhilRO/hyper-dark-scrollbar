@@ -14,7 +14,7 @@ localPlugins: [
     'hyper-light-scrollbar'
   ],
  ```
- * Now, one should be able to make their own changes to `index.js` in `c/users/{username}/.hyper_plugins/local/hyper-light-scrollbar` file according to their own preference. Restart the Hyper terminal to see your changes.
+ * Now, one should be able to make their own changes to `index.js` in `c/users/{username}/.hyper_plugins/local/hyper-light-scrollbar` folder according to their own preference. Restart the Hyper terminal to see your changes.
  
 Below are the original instructions for the `hyper-dark-scrollbar`
 ---------
