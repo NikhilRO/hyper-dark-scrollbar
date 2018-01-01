@@ -1,4 +1,4 @@
-# hyper-dark-scrollbar
+# hyper-light-scrollbar
 Pretty scrollbar for [hyper](https://github.com/zeit/hyper).
 
 A plugin that stylizes the chunky Windows-ish scrollbar into a more sleek scrollbar.
