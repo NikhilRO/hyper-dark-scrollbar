@@ -1,4 +1,25 @@
 # hyper-light-scrollbar
+Made minor changes for personal use. 
+
+### Instructions for use
+* Download/Clone this repo and put the unzipped folder in `c/users/{username}/.hyper_plugins/local`
+* Edit the .hyper.js file as such:
+``` javascript 
+plugins:[
+    //your plugins
+    'hyper-dark-scrollbar'
+  ],
+localPlugins: [
+     //your plugins
+    'hyper-light-scrollbar'
+  ],
+ ```
+ * Now, one should be able to make their own changes to `index.js` in `c/users/{username}/.hyper_plugins/local/hyper-light-scrollbar` file according to their own preference. Restart the Hyper terminal to see your changes.
+ 
+Below are the original instructions for the `hyper-dark-scrollbar`
+---------
+
+# hyper-dark-scrollbar
 Pretty scrollbar for [hyper](https://github.com/zeit/hyper).
 
 A plugin that stylizes the chunky Windows-ish scrollbar into a more sleek scrollbar.
